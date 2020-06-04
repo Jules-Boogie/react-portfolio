@@ -1,10 +1,25 @@
 import React from 'react';
+import { Image } from 'react-bootstrap'
+
+
 
 function aboutPage() {
 
     return (
         <div className="container">
-            <h1><strong>About me</strong></h1>
+            <h2><strong>About Juliet</strong></h2>
+            <Container>
+                <Row>
+                    <Col xs={6} md={4}>
+                        <Image src="../../public/assets/IMG_1878.JPG" rounded />
+                    </Col>
+                    <Col xs={6} md={4}>
+                        <Image src="../../public/assets/IMG_1878.JPG" rounded />
+                    </Col>
+                </Row>
+            </Container>
+            <h1 class="name"><strong>Juliet George</strong></h1>
+            <h1 class="profession">Full Stack Developer</h1>
             <h2>&hearts;</h2>
 
             <div className="row">
@@ -24,14 +39,14 @@ function aboutPage() {
                         restaurants in North Beach with my friends.
                         </p>
                 </div>
-               
+
             </div>
         </div>
 
 
 
 
-)
+    )
 
 
 

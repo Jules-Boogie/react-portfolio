@@ -74,12 +74,6 @@ function portfolioPage(){
             Gitlink:"https://github.com/Jules-Boogie/P2-JobTrek",
         },
         {
-            Title:"Fitness Tracker",
-            Image:"../../public/assets",
-            deployedLink:"",
-            Gitlink:"https://github.com/Jules-Boogie/fitness-tracker",
-        },
-        {
             Title:"Employee Directory",
             Image:"https://github.com/Jules-Boogie/employee-directory/blob/master/public/usersbyname.PNG?raw=true",
             deployedLink:"https://jules-boogie.github.io/employee-directory/",
@@ -87,14 +81,14 @@ function portfolioPage(){
         },
         {
             Title:"Savoire Faire-Clothing Store",
-            Image:"",
-            deployedLink:"",
+            Image:"../../public/assets/shoppingcart.PNG",
+            deployedLink:"https://savoire-faire.herokuapp.com/",
             Gitlink:"https://github.com/Jules-Boogie/savoir-faire",
         },
         {
             Title:"Mern Book Search API",
             Image:"https://github.com/Jules-Boogie/Books-API/blob/master/assets/Capture.PNG?raw=true",
-            deployedLink:"",
+            deployedLink:"https://googlesearchbooksz.herokuapp.com/",
             Gitlink:"https://github.com/Jules-Boogie/Books-API",
         },
 

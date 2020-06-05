@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectCard from "../Components/PortFolioCard/Card"
-import test from "../../public/assets"
+
 
 
 function portfolioPage(){
@@ -9,31 +9,31 @@ function portfolioPage(){
     const Projects =[
         {
             Title:"Password Generator",
-            Image:"../../public/assets/password.PNG",
+            Image:"https://github.com/Jules-Boogie/password-generator/blob/master/Capture.PNG?raw=true",
             deployedLink:"https://jules-boogie.github.io/password-generator/",
             Gitlink:"https://github.com/Jules-Boogie/password-generator",
         },
         {
             Title:"Timed Code Quiz",
-            Image:"../../public/assets/Capture.PNG",
+            Image:"https://github.com/Jules-Boogie/code-quiz/blob/master/assets/Capture.PNG?raw=true",
             deployedLink:"https://jules-boogie.github.io/code-quiz/main.html",
             Gitlink:"https://github.com/Jules-Boogie/code-quiz",
         },
         {
             Title:"Work-Day Planner",
-            Image:"../../public/assets/wordday.PNG",
+            Image:"https://github.com/Jules-Boogie/work-day-scheduler/blob/master/Assets/Capture.PNG?raw=true",
             deployedLink:"https://jules-boogie.github.io/work-day-scheduler/",
             Gitlink:"https://github.com/Jules-Boogie/work-day-scheduler",
         },
         {
             Title:"Covid-19 Tracker",
-            Image:"../../public/assets/covid 19.png",
+            Image:"https://github.com/Jules-Boogie/covid19-tracker/blob/master/assets/images/covid-19-animated-app.gif?raw=true",
             deployedLink:"https://jules-boogie.github.io/covid19-tracker/",
             Gitlink:"https://github.com/Jules-Boogie/covid19-tracker",
         },
         {
             Title:"Weather Dashboard",
-            Image:"../../public/assets/Capture1.PNG",
+            Image:"https://github.com/Jules-Boogie/weather-dashboard/blob/master/Capture.PNG?raw=true",
             deployedLink:"https://jules-boogie.github.io/weather-dashboard/",
             Gitlink:"https://github.com/Jules-Boogie/weather-dashboard",
         },
@@ -69,7 +69,7 @@ function portfolioPage(){
         },
         {
             Title:"JobTrek",
-            Image:"https://github.com/Jules-Boogie/P2-JobTrek/blob/master/assets/Capture.PNG",
+            Image:"https://github.com/Jules-Boogie/P2-JobTrek/blob/master/assets/Capture.PNG?raw=true",
             deployedLink:"https://jobtrek.herokuapp.com/",
             Gitlink:"https://github.com/Jules-Boogie/P2-JobTrek",
         },
@@ -81,7 +81,7 @@ function portfolioPage(){
         },
         {
             Title:"Savoire Faire-Clothing Store",
-            Image:"../../public/assets/shoppingcart.PNG",
+            Image:"https://github.com/Jules-Boogie/savoir-faire/blob/master/client/public/app%20photos/before%20login.PNG?raw=true",
             deployedLink:"https://savoire-faire.herokuapp.com/",
             Gitlink:"https://github.com/Jules-Boogie/savoir-faire",
         },

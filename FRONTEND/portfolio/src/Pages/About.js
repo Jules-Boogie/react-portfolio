@@ -1,30 +1,54 @@
 import React from 'react';
-import { Image } from 'react-bootstrap'
+import { Image, Col, Row, Container } from 'react-bootstrap'
 
 
 
 function aboutPage() {
+    const imgstyle = {
+        height:"400px",
+        width:"500px"
+    }
+
+    const imgstyle1 = {
+        height:"600px",
+        width:"400px"
+    }
+    const text={
+        fontSize:"24px",
+        color:"black"
+    }
+
 
     return (
-        <div className="container">
-            <h2><strong>About Juliet</strong></h2>
-            <Container>
+        <div  className="container text-white">
+            <section>
+            <h2 className="text-center"> About Me &hearts; </h2>
+           <div>
+            <Container >
                 <Row>
-                    <Col xs={6} md={4}>
-                        <Image src="../../public/assets/IMG_1878.JPG" rounded />
+                    
+                    <Col s={6} md={6} >
+                        <Image  className="card" style={imgstyle} src={require("../Images/IMG_1878.JPG")} rounded />
                     </Col>
-                    <Col xs={6} md={4}>
-                        <Image src="../../public/assets/IMG_1878.JPG" rounded />
+                    
+                   
+                    <Col s={6} md={6}>
+                        <Image  className="card" style={imgstyle1} src={require("../Images/aboutpic.jpg")} rounded />
+                        
                     </Col>
+                    
                 </Row>
             </Container>
-            <h1 class="name"><strong>Juliet George</strong></h1>
-            <h1 class="profession">Full Stack Developer</h1>
-            <h2>&hearts;</h2>
+            </div> 
+            </section>
+            <section>
+            <h1 className="text-center"><strong>Juliet George</strong></h1>
+            <h1 className="text-center">Full Stack Developer</h1>
+            <h2 className="text-center">&hearts;</h2>
 
             <div className="row">
                 <div className="col-sm-2"></div>
-                <div className="col-lg-8">
+                <div style={text} className="col-lg-8 bg-secondary">
                     <p className="aboutParagraph"> I was born in the south of Nigeria.
                     I was raised by my grandparents who emphasized the importance of science and technology
                     in the lives. My grandfather would buy the newest computers and show me how to you them.
@@ -32,8 +56,9 @@ function aboutPage() {
                     I cherished my phone but also used it to take pictures and play video games.
                     </p>
 
-                    <p className="aboutParagraph">
-                        I am looking forward to starting out my career as software engineer.
+                    <p className="aboutParagraph ">
+                         I have recently completed a 12-week Coding BootCamp with the University of Berkeley Extension, where I learned HTML, CSS, Javascript, Jquery, MySql, MongoDB, Nodejs, and ExpressJS. Please take a look at my Portfolio page to see the top projects I have worked on. 
+                        I am looking forward to starting out my career as software engineer. I am using this time to study complex Javascript, Angular, Vue, and Algorithms. 
                         I have lived in San Francisco for two years and worked as a Test engineer and
                         IT Engineer. I love living and working in the city. My favorite thing to do is checking out
                         restaurants in North Beach with my friends.
@@ -41,6 +66,7 @@ function aboutPage() {
                 </div>
 
             </div>
+            </section>
         </div>
 
 

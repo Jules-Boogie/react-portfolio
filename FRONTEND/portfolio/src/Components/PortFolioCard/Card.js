@@ -1,25 +1,33 @@
 import React from 'react'
-import { Card, Button, CardDeck } from 'react-bootstrap'
+import { Card,   Container, Button, CardDeck } from 'react-bootstrap'
+import {Link} from "react-dom"
 
 function projectCard(props) {
 
     return (
 
-        <CardDeck>
-            {props.projects.map(project =>{
-            <Card>
+        <Container>
+            <h1 className="display-4 text-center"> Juliet's Projects </h1>
+            {props.projects.map(project => {
+                return(
+                    <div>
+                <h5  className="display-5 text-center text-white "> {project.Title} </h5>
+            <Card >
+            
                 <Card.Img variant="top" src={project.Image} />
                 <Card.Body>
-                    <Card.Title>{project.Title}</Card.Title>
+                   
                 </Card.Body>
                 <Card.Footer>
                     <Card.Link className="btn btn-info"href={project.Gitlink}> Github Repo</Card.Link>
                     <Card.Link className="btn btn-info" href={project.deployedLink}> Deployed Link</Card.Link>
                 </Card.Footer>
             </Card>
+            </div>
+                )
 })}
 
-        </CardDeck>
+</Container>
     )
 }
 

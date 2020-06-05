@@ -14,6 +14,8 @@ The portfolio sites gives the visitor a list of skills and projects completed by
 
 ## Technology Used
 | [React](https://reactjs.org/)                |   A declarative, component based Javascript library for building interactive user interface                 |
+| [Bootstrap](https://reactjs.org/)                |  Front-end open-source design toolkit                |
+
 
 
 

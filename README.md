@@ -13,6 +13,8 @@ The portfolio sites gives the visitor a list of skills and projects completed by
 ![app](https://github.com/Jules-Boogie/react-portfolio/blob/master/FRONTEND/portfolio/Capture.PNG)
 
 ## Technology Used
+| Technologies | Description  |
+|---------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------:|
 | [React](https://reactjs.org/)                |   A declarative, component based Javascript library for building interactive user interface                 |
 | [Bootstrap](https://reactjs.org/)                |  Front-end open-source design toolkit                |
 

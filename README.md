@@ -11,20 +11,20 @@ The portfolio sites gives the visitor a list of skills and projects completed by
 
 ## App Photos
 
-Home Page:
+### Home Page:
 
 ![app](https://github.com/Jules-Boogie/react-portfolio/blob/master/Capture.PNG)
 
 
-About Page:
+### About Page:
 ![about](https://github.com/Jules-Boogie/react-portfolio/blob/master/about.PNG)
 
 
-Portfolio Page:
+### Portfolio Page:
 ![portfolio](https://github.com/Jules-Boogie/react-portfolio/blob/master/portfolio%20page.PNG)
 
 
-Contact Page:
+### Contact Page:
 ![contact](https://github.com/Jules-Boogie/react-portfolio/blob/master/aboutme.PNG)
 
 

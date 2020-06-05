@@ -20,7 +20,7 @@ function App() {
   const style = {
     backgroundImage: "url(" + "https://www.jpl.nasa.gov/spaceimages/images/wallpaper/PIA14156-1920x1200.jpg" +")",
     marginTop:"64px",
-    marginBottom:"300px",
+     marginBottom:"100px",
     color:"peach",
     fontFamily: "'Piedra', cursive"
   }
@@ -36,8 +36,9 @@ function App() {
           <Route exact path="/Portfolio" component={Portfolio} />
           <Route exact path="/Contact" component={Contact} />
           </main>
-          <Footer/>
+          
         </Switch>
+        <Footer/>
     </div>
   </Router>
   );

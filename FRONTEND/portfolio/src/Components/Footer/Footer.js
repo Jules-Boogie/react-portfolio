@@ -1,31 +1,50 @@
 import React from 'react'
 import Social from "../Social/Social"
+import  {Navbar} from 'react-bootstrap'
 
 
 function footer(){
+
+    const style={
+        // paddingTop:"60px",
+        marginTop:"200px"
+    }
+
+    
 return (
 
-    <footer className="footer  navbar">
-        <div className="row"> 
+    <Navbar style={style}  fixed="bottom">
+         
        
-        <div className="col">
-            <ul>
-                <li>
-                    <a href="#"> About </a>  </li>
-                <li> <a href="#"> Contact </a> </li>
-                <li> <a href="#"> Home </a> </li>
-                <li> <a href="#"> Portfolio </a> </li>
-                <li><a href="#"> Skills </a> </li>
-            </ul>
-
-        </div>
-        <div className="col">
-        <Social/>
-        </div>
-        </div>
-
-<p>Copyright &copy; 2020</p>
-    </footer>
+         
+            
+                    <ul className="nav nav-bar">
+                        <li className="nav-item">
+                            <a className="nav-link active" href="/"><strong className="navBorder">Home</strong></a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link active" href="/About"><strong className="navBorder">About</strong></a>
+                        </li>
+                        <br/>
+                            <li className="nav-item">
+                                <a className="nav-link" href="/Portfolio"><strong
+                                    className="navBorder">Portfolio</strong></a>
+                            </li>
+                            <br/>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="/Contact"><strong className="navBorder">Contact</strong></a>
+                                </li>
+                                <br/>
+                    </ul>
+                    <div className="ml-auto">
+                    <Social />
+                    </div>
+       
+       
+                    <div className="ml-auto">
+<p className="nav-item"> &copy;2020. All rights reserved. Made in SF, CA. </p>
+</div>
+    </Navbar>
 )
 
 

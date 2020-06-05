@@ -16,6 +16,9 @@ function projectCard(props) {
             
                 <Card.Img variant="top" src={project.Image} />
                 <Card.Body>
+                    <Card.Text>
+                        {project.Desccription}
+                    </Card.Text>
                    
                 </Card.Body>
                 <Card.Footer>

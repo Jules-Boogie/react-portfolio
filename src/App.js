@@ -8,7 +8,6 @@ import Home from "./Pages/Home"
 
 import Portfolio from "./Pages/Portfolio"
 import Contact from "./Pages/Contact"
-import Skills from "./Pages/Skills"
 import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 
 
@@ -26,15 +25,15 @@ function App() {
   }
 
   return (
-    <Router>
+    <Router basename="/react-portfolio">
     <div  >
         <Navbar />
         <Switch>
           <main style={style} >
-          <Route exact path="/" component={Home} />
-          <Route exact path="/About" component={About} />
-          <Route exact path="/Portfolio" component={Portfolio} />
-          <Route exact path="/Contact" component={Contact} />
+          <Route  exact path="/" component={Home} />
+          <Route   path="/About" component={About} />
+          <Route  path="/Portfolio" component={Portfolio} />
+          <Route  path="/Contact" component={Contact} />
           </main>
           
         </Switch>

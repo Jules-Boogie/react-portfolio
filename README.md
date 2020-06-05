@@ -1,6 +1,7 @@
 # React-Portfolio
 
 ### DEPLOYED LINK:
+https://jules-boogie.github.io/react-portfolio/
 
 
 ## Introduction 

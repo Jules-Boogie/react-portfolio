@@ -46,7 +46,11 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-d
 
 
 ## Installation Procedures
-create application with npx create-react-app react-portfolio
+create application with 
+
+npx create-react-app react-portfolio
+
+
 install dependences:
 npm install react
 npm install react-bootstrap
